@@ -13,8 +13,3 @@ We’re not building another trading card app. We’re building the core infrast
 
 🌐 Visit us at [cardsight.ai](https://cardsight.ai)  
 📧 Contact: hello@cardsight.ai  
-
----
-
-🚧 **This organization currently has no public repositories.**  
-Stay tuned for updates as we open-source tools and resources for developers working with card data and AI.
