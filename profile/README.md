@@ -160,10 +160,10 @@ We're a small but passionate team of collectors and developers who believe the f
 
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER_URL)
-[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](YOUR_BLUESKY_URL)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](YOUR_DISCORD_URL)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/CardSightAI)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/cardsight.ai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/cardsight-ai/?)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UrYrv2SZm8)
 
 </div>
 
@@ -171,8 +171,8 @@ We're a small but passionate team of collectors and developers who believe the f
 
 - **General Inquiries:** hello@cardsight.ai
 - **Sales & Enterprise:** sales@cardsight.ai
-- **Support:** [support.cardsight.ai](https://launch.cardsight.ai/support)
-- **Documentation:** [launch.cardsight.ai/docs](https://launch.cardsight.ai/docs)
+- **Support:** [cardsight.ai/support](https://cardsight.ai/support)
+- **Documentation:** [cardsight.ai/documentation](https://cardsight.ai/documentation)
 
 ---
 
