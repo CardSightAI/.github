@@ -14,7 +14,7 @@
 
 **AI-native infrastructure for the trading card industry**
 
-[Website](https://cardsight.ai) • [Documentation](https://launch.cardsight.ai/docs) • [API Reference](https://api.cardsight.ai/documentation) • [Get API Key](https://app.cardsight.ai/)
+[Website](https://cardsight.ai) • [Documentation](https://cardsight.ai/documentation) • [API Reference](https://api.cardsight.ai/documentation) • [Get API Key](https://app.cardsight.ai/)
 
 </div>
 
@@ -113,7 +113,7 @@ Our computer vision handles the messy reality of card collecting: poor lighting,
 
 - **[Interactive Demo](https://play.cardsight.ai)** - Test identification in your browser
 - **[Get Free API Key](https://app.cardsight.ai)** - 750 free calls/month, no credit card required
-- **[View Documentation](https://launch.cardsight.ai/docs)** - Complete integration guides
+- **[View Documentation](https://cardsight.ai/documentation)** - Complete integration guides
 
 ## 🗺️ Current Coverage & Roadmap
 
