@@ -59,7 +59,7 @@ npm install cardsight
 
 ```javascript
 // Identify a card from an image
-const CardSight = require('@cardsight/api');
+const CardSight = require('cardsight');
 const client = new CardSight('your-api-key');
 
 const result = await client.identify({
