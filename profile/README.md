@@ -54,9 +54,7 @@ All SDKs and example projects are released under the **MIT License**.
 
 ```bash
 # Install your preferred SDK
-npm install @cardsight/api
-# or
-pip install cardsight
+npm install cardsight
 ```
 
 ```javascript
