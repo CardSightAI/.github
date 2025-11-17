@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![API Status](https://img.shields.io/badge/API-Online-success)](https://api.cardsight.ai/health)
-[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://launch.cardsight.ai/docs)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://cardsight.ai/documentation)
 
 **AI-native infrastructure for the trading card industry**
 
@@ -178,7 +178,7 @@ We're a small but passionate team of collectors and developers who believe the f
 
 <div align="center">
 
-**[Get Started](https://app.cardsight.ai) • [Documentation](https://launch.cardsight.ai/docs) • [API Reference](https://api.cardsight.ai/documentation)**
+**[Get Started](https://app.cardsight.ai) • [Documentation](https://cardsight.ai/documentation) • [API Reference](https://api.cardsight.ai/documentation)**
 
 Built with ❤️ by collectors, for collectors
 
