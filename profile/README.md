@@ -26,9 +26,9 @@ CardSight AI provides **developer-first infrastructure** for trading cards throu
 
 ### Core Capabilities
 
-- **🔍 Visual Card Identification** - 99.5% accuracy across 2,000+ distinct sets with sub-second response times
-- **📊 Comprehensive Catalog API** - 3M+ baseball cards from 1934 to present with complete metadata
-- **💰 Real-Time Pricing Data** - Market pricing updated daily with historical trends and analytics
+- **🔍 Visual Card Identification** - 99.5% accuracy across 1,750+ distinct sets with sub-second response times
+- **📊 Comprehensive Catalog API** - 6M+ baseball cards from 1934 to present with complete metadata
+- **💰 Market Pricing Data** - Market pricing updated daily with historical trends and analytics
 - **🤖 AI-Native Integration** - Native MCP endpoints for Claude and ChatGPT plugin support
 - **🖼️ Multi-Card Detection** - Identify multiple cards in a single image, including graded slabs
 - **⚡ Production-Ready** - 99.9% uptime SLA, global CDN distribution, enterprise-grade infrastructure
@@ -53,38 +53,51 @@ All SDKs and example projects are released under the **MIT License**.
 ### Quick Start
 
 ```bash
-# Install your preferred SDK
-npm install cardsight
+# Install the SDK
+npm install cardsightai
 ```
 
-```javascript
-// Identify a card from an image
-const CardSight = require('cardsight');
-const client = new CardSight('your-api-key');
+```typescript
+import { CardSightAI } from 'cardsightai';
 
-const result = await client.identify({
-  image: 'path/to/card.jpg'
+// Initialize the client
+const client = new CardSightAI({ apiKey: 'your_api_key' });
+
+// Identify a card from an image (File, Blob, Buffer, or ArrayBuffer)
+const result = await client.identify.card(imageFile);
+
+if (result.data?.success) {
+  const detection = result.data.detections?.[0];
+  if (detection) {
+    console.log(`Card: ${detection.card.name}`);
+    console.log(`Set: ${detection.card.releaseName}`);
+    console.log(`Confidence: ${detection.confidence}`);
+    console.log(`Total cards detected: ${result.data.detections.length}`);
+  }
+}
+
+// Search the catalog
+const cards = await client.catalog.cards.list({
+  year: 2023,
+  manufacturer: 'Topps',
+  player: 'Aaron Judge',
+  take: 10
 });
 
-console.log(result.cards[0]);
-// {
-//   "year": 1984,
-//   "brand": "Donruss",
-//   "number": "248",
-//   "player": "Don Mattingly",
-//   "confidence": 0.994,
-//   "price": { "raw": 45.00, "graded": { "PSA 10": 850.00 } }
-// }
+// Natural language AI search
+const response = await client.ai.query({
+  query: 'Show me Mike Trout rookie cards worth over $100'
+});
 ```
 
 ### API Endpoints
 
-- **Visual Identification** - POST `/v1/identify` - Identify cards from images
-- **Catalog Search** - GET `/v1/catalog/search` - Search 3M+ card database
-- **Price Lookup** - GET `/v1/pricing/{cardId}` - Real-time market pricing
-- **Collection Management** - Full CRUD operations for user collections
+- **Visual Identification** - `identify.card()`, `identify.cardBySegment()` - Identify cards from images
+- **Card Detection** - `detect.card()` - Check if trading cards are present in an image
+- **Catalog Search** - `catalog.cards.list()`, `catalog.sets.list()` - Search 6M+ card database
+- **Collection Management** - `collections.create()`, `collections.cards.add()` - Full CRUD for collections
+- **AI Search** - `ai.query()` - Natural language card queries
 - **MCP Tools** - Native integration with Claude AI assistants
-
 ## 🌟 What Makes Us Different
 
 ### AI-First Architecture
@@ -109,18 +122,19 @@ Our computer vision handles the messy reality of card collecting: poor lighting,
 
 ## 🎮 Try It Now
 
-- **[Interactive Demo](https://play.cardsight.ai)** - Test identification in your browser
+- **[Interactive Demo](https://play.cardsight.ai)** - Test identification in your browser in our API Playground
 - **[Get Free API Key](https://app.cardsight.ai)** - 750 free calls/month, no credit card required
 - **[View Documentation](https://cardsight.ai/documentation)** - Complete integration guides
 
 ## 🗺️ Current Coverage & Roadmap
 
 **Available Now:**
-- ⚾ **Baseball** - 3M+ cards (1934-present) across all major brands
+- ⚾ **Baseball** - 6M+ cards (1934-present) across all major brands
+- 🏀 **Basketball** - 1M+ cards, full NBA coverage including rookies and parallels
+- 🏈 **Football** - 1M+ NFL cards from all major manufacturers
 
 **Coming Soon:**
-- 🏀 **Basketball** - Full NBA coverage including rookies and parallels
-- 🏈 **Football** - NFL cards from all major manufacturers  
+- 🏒 **Hockey** - NHL cards from all major manufacturers in the US and Canada
 - 🎮 **Pokemon** - TCG cards with rarity detection
 
 *All new sports and TCGs are automatically available to existing API users at no additional cost.*
@@ -160,7 +174,7 @@ We're a small but passionate team of collectors and developers who believe the f
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/CardSightAI)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/cardsight.ai)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/cardsight-ai/?)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/cardsight-ai/)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UrYrv2SZm8)
 
 </div>
