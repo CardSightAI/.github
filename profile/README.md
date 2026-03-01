@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/cardsightai/cardsight-node)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/cardsightai/cardsight-python)
-[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://github.com/cardsightai/cardsight-swift)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/cardsightai/cardsight-java)
-[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/cardsightai/cardsight-dotnet)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/cardsightai/cardsightai-sdk-node)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/cardsightai/cardsightai-sdk-python)
+[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://github.com/cardsightai/cardsightai-sdk-swift)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/cardsightai/cardsightai-sdk-java)
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/cardsightai/cardsightai-sdk-dotnet)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/API-Online-success)](https://api.cardsight.ai/health)
+[![API Status](https://img.shields.io/badge/API-Online-success)](https://status.cardsight.ai/)
 [![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://cardsight.ai/documentation)
 
 **AI-native infrastructure for the trading card industry**
