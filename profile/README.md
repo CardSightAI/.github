@@ -286,11 +286,11 @@ That's **3,000+ sets** across the four major North American sports, all identifi
 
 ## Pricing
 
-| Tier | Price | Best for |
-|---|---|---|
-| **Free** | $0/month — 750 calls included | Prototyping, evaluation, side projects |
-| **Developer** | $14.95/month base + $0.0025/call overage | Production apps and small businesses |
-| **Enterprise** | Custom | High-volume marketplaces, platforms, and custom SLAs |
+| Tier | Price | Included API Calls | Best for |
+|---|---|---|---|
+| **Free** | $0/month | 750 calls | Prototyping, evaluation, side projects |
+| **Pro** | $14.95/month | 5,000 calls | Production apps and growing businesses |
+| **Ultra** | $199.95/month | 100,000 calls | High-volume marketplaces and platforms |
 
 No credit card required to start. [Get a free API key →](https://app.cardsight.ai)
 
