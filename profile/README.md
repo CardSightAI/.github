@@ -288,6 +288,7 @@ That's **3,000+ sets** across the four major North American sports plus full Pok
 |---|---|---|---|
 | **Free** | $0/month | 750 calls | Prototyping, evaluation, side projects |
 | **Pro** | $14.95/month | 5,000 calls | Production apps and growing businesses |
+| **Premium** | $74.95/month | 30,000 calls | Growing Trading Card App, gaining market traction & users |
 | **Ultra** | $199.95/month | 100,000 calls | High-volume marketplaces and platforms |
 | **Enterprise** | Custom | Custom | Real-time video streaming, dedicated infrastructure, SLA-backed service |
  
