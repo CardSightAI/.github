@@ -39,7 +39,7 @@ Our identification engine is the reason the company is called CardSight.
  
 **What it does:**
  
-- **Industry-leading accuracy across 3,000+ sets** spanning baseball, basketball, football, hockey, and Pokémon
+- **Industry-leading accuracy across 4,250+ sets** spanning baseball, basketball, football, hockey, Pokémon, and Magic: The Gathering
 - **Sub-second response times** — built for real-time camera flows, not batch jobs
 - **Multi-card detection** — identify multiple trading cards in a single image, including binder pages and showcase shots
 - **Real-time video streaming identification** — continuous identification from live video streams over SRT, RTMP, RTSP, and WebSocket (enterprise tier)
@@ -128,10 +128,10 @@ const listings = await client.marketplace.get('card_uuid', {
  
 ## 📊 The Catalog Behind Everything
  
-Identification and pricing only work because of the catalog underneath. Over 9 million trading cards, fully structured, with parallels, variations, attributes, grading references, and card images.
+Identification and pricing only work because of the catalog underneath. Over 12 million trading cards, fully structured, with parallels, variations, attributes, grading references, and card images.
  
-- **9M+ trading cards** from 1934 through present
-- **Baseball, basketball, football, hockey, and Pokémon** — full identification and catalog support across all five
+- **12M+ trading cards** from 1934 through present
+- **Baseball, basketball, football, hockey, Pokémon, and Magic: The Gathering** — full identification and catalog support across all five
 - **Parallels and variations as first-class entities** — not an afterthought
 - **Segments, manufacturers, releases, sets, parallels** — the full hierarchy developers actually need
 - **Fuzzy search, autocomplete, and natural-language AI search** — pick whichever fits your UX
@@ -154,12 +154,12 @@ const answer = await client.ai.query({
  
 | Capability | What it does |
 |---|---|
-| **🔍 Visual Card Identification** | Industry-leading accuracy across 3,000+ sets, sub-second response, handles raw cards and graded slabs |
+| **🔍 Visual Card Identification** | Industry-leading accuracy across 4,250+ sets, sub-second response, handles raw cards and graded slabs |
 | **🎬 Real-Time Video Streaming Identification** | Continuous identification from live video streams over SRT, RTMP, RTSP, and WebSocket (enterprise tier) |
 | **🏷️ Slab & Parallel Awareness** | Automatic grading company / grade detection and parallel variant recognition |
 | **🖼️ Multi-Card Detection** | Identify multiple trading cards in a single image |
 | **💰 Pricing & Marketplace API** | Daily-refreshed completed sales + active listings, grade- and parallel-aware, millisecond-level response times |
-| **📊 9M+ Trading Card Catalog** | Comprehensive metadata for baseball, basketball, football, hockey, and Pokémon |
+| **📊 9M+ Trading Card Catalog** | Comprehensive metadata for baseball, basketball, football, hockey, Pokémon, and Magic: The Gathering |
 | **🤖 Native AI / MCP Integration** | First-class MCP endpoints for Claude and ChatGPT — no glue code required |
 | **⚡ Production Infrastructure** | 99.9% uptime SLA, global CDN, typed SDKs, OpenAPI spec, webhook support |
  
