@@ -29,7 +29,7 @@ We exist to help developers, marketplaces, and collectibles businesses **bring t
 **Three pillars:**
  
 1. **🔍 Visual Identification** — our namesake. Point a camera at a card, know exactly what it is.
-2. **📊 9M+ Trading Card Catalog** — the structured knowledge layer behind identification, spanning baseball, basketball, football, hockey, and Pokémon.
+2. **📊 12M+ Trading Card Catalog** — the structured knowledge layer behind identification, spanning baseball, basketball, football, hockey, and Pokémon.
 3. **💰 Pricing & Marketplace Data** — daily-updated completed sales and active listings, so "what is it?" immediately becomes "what's it worth?"
 ## 🔍 Visual Card Identification — The Platform's Core
  
@@ -257,11 +257,11 @@ Full reference at [api.cardsight.ai/documentation](https://api.cardsight.ai/docu
 - 🏈 **Football** — all major NFL manufacturers
 - 🏒 **Hockey** — NHL cards from US and Canadian manufacturers
 - 🎮 **Pokémon TCG** — every era from the original 1999 Base Set through the current Scarlet & Violet series, including raw cards and graded slabs
-That's **3,000+ sets** across the four major North American sports plus full Pokémon TCG coverage, all identifiable from a single photo or live video stream.
+- 🧙 **Magic: The Gathering** - the longest running TCG still in publication is supported by CardSight AI, from Alpha to the latest 2026 release Secrets of Strixhaven
+That's **4,250+ sets** across the four major North American sports plus outstandint TCG coverage, all identifiable from a single photo or live video stream.
  
 **Coming soon:**
- 
-- 🃏 **Magic: The Gathering** — visual ID for MTG cards is next on the roadmap
+
 - ⚔️ **One Piece TCG** — rapidly growing in collector interest, in active development
 - Additional TCGs to follow
 *All new sports and TCGs are automatically available to existing API users at no additional cost.*
@@ -299,7 +299,7 @@ No credit card required to start. [Get a free API key →](https://app.cardsight
 Building comparable infrastructure from scratch looks like this:
  
 - Visual identification models and training pipeline — 12–18 months, $500K+
-- 9M+ trading card catalog with parallels, variations, and attributes — 6–12 months, $250K+
+- 12M+ trading card catalog with parallels, variations, and attributes — 6–12 months, $250K+
 - Pricing and marketplace aggregation + normalization — 4–6 months, $150K+
 - AI and MCP integration — 3–4 months, $125K+
 **Total: $1M+ and two years.** Or: `npm install cardsightai` and start building today.
